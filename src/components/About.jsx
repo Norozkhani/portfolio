@@ -5,13 +5,13 @@ export default function About() {
     <div
       name="about"
       id="about"
-      className="w-full h-screen bg-[#0a192f] text-gray-300"
+      className="w-full h-screen opacity-80 text-gray-300   "
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className=" py-16 rounded-md bg-cyan-900 flex flex-col justify-center items-center w-4/6">
+        <div className=" py-16 rounded-md  bg-gradient-to-r from-violet-700 to-violet-900 opacity-100 flex flex-col justify-center items-center w-4/6">
           <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 mb-4">
             <div className="sm:text-right pb-8 pl-4">
-              <p className="text-4xl font-bold inline border-b-4 border-cyan-500">
+              <p className="text-4xl font-bold inline border-b-4 border-violet-500 ">
                 About
               </p>
             </div>
