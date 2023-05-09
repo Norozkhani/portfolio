@@ -7,7 +7,7 @@ export default function Navbar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 static z-2">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 static z-10">
       <div>
         <h1 className=" font-thin text-2xl italic font-serif">MN</h1>
       </div>

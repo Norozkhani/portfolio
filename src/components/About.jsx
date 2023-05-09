@@ -5,7 +5,7 @@ export default function About() {
     <div
       name="about"
       id="about"
-      className="w-full h-screen opacity-90 text-gray-300 z-1  "
+      className="w-full h-screen opacity-90 text-gray-300"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className=" py-16 rounded-md  bg-gradient-to-r from-indigo-700 to-indigo-900 flex flex-col justify-center items-center w-4/6">
