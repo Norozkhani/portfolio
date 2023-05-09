@@ -22,7 +22,7 @@ export default function HomePage() {
               to="about"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-violet-400 to-violet-600 cursor-pointer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-indigo-400 to-indigo-600 cursor-pointer"
             >
               About Me
               <span className="group-hover:rotate-90 duration-300">
