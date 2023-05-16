@@ -26,7 +26,7 @@ export default function Works() {
             <span className="text-2xl my-4 font-bold inline border-b-4 text-gray-300 border-indigo-500 ">
               Todo with DB
             </span>
-            <div className="flex-row mx-auto flex content-div items-center justify-center pl-4 pr-4">
+            <div className="flex-row mx-auto flex content-div items-center justify-center pl-4 pr-4 flex-wrap">
               <img
                 src={todo}
                 alt="Website img"
@@ -65,7 +65,7 @@ export default function Works() {
             <span className=" text-2xl my-4 font-bold inline border-b-4 text-gray-300 border-indigo-500">
               Fair and Square
             </span>
-            <div className="flex-row mx-auto flex content-div items-center justify-center pl-4 pr-4">
+            <div className="flex-row mx-auto flex content-div items-center justify-center pl-4 pr-4 flex-wrap">
               <img
                 src={fns}
                 alt="Website img"
@@ -95,7 +95,7 @@ export default function Works() {
             <span className="text-2xl my-4 font-bold inline border-b-4 text-gray-300 border-indigo-500">
               Slack mock up
             </span>
-            <div className="flex-row mx-auto flex content-div items-center justify-center pl-4 pr-4">
+            <div className="flex-row mx-auto flex content-div items-center justify-center pl-4 pr-4 flex-wrap">
               <img
                 src={slack}
                 alt="Website img"
