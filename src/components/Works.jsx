@@ -2,6 +2,7 @@ import React from "react";
 import slack from "../assets/slack.png";
 import todo from "../assets/todo.png";
 import fns from "../assets/fairandsquare.png";
+import es from "../assets/E-Space.png";
 
 export default function Works() {
   return (
@@ -20,6 +21,44 @@ export default function Works() {
         {/* Container */}
         <div className="grid gap-4">
           {/* Grid Item */}
+
+          <div className="bg-cover bg-gradient-to-r from-indigo-700 to-indigo-900 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div flex-col">
+            <span className="text-2xl my-4 font-bold inline border-b-4 text-gray-300 border-indigo-500">
+              Exploring space
+            </span>
+            <div className="flex-row mx-auto flex content-div items-center justify-center pl-4 pr-4 flex-wrap">
+              <img
+                src={es}
+                alt="Website img"
+                className="rounded-md object-scale-down h-48 w-96"
+              />
+              <p className="text-left p-10">
+                This projetc was to really explore code and try new things such
+                as 3D, web Audio and VR. The website is made in React and uses a
+                Lot of different libraries such as react-three fiber, drei,
+                tailwind and a few more. This project was really fun and made me
+                appreciate creative development much more! (demo included)
+              </p>
+            </div>
+            <div className="pt-8 text-center">
+              <a
+                target="_blank"
+                href="https://ubiquitous-starlight-47917d.netlify.app/ "
+              >
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg static -right-80">
+                  Demo
+                </button>
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/Exploring-Space/exploring-space"
+              >
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg static -right-80">
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
 
           {/* PROJECT 1 */}
           <div className="bg-cover bg-gradient-to-r from-indigo-700 to-indigo-900 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div flex-col">
@@ -43,12 +82,6 @@ export default function Works() {
                 server side.
               </p>
             </div>
-            {/* <div className="flex-col relative right-80">
-              <i class="devicon-nodejs-plain-wordmark"></i>
-              <i class="devicon-react-original"></i>
-              <i class="devicon-postgresql-plain"></i>
-              <i class="devicon-sequelize-plain"></i>
-            </div> */}
             <div className="pt-8 text-center">
               <a
                 target="_blank"

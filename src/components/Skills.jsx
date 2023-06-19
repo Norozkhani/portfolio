@@ -42,6 +42,15 @@ export default function Skills() {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-indigo-900">
             <p className="my-4">FIGMA</p>
           </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-indigo-900">
+            <p className="my-4">JIRA</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-indigo-900">
+            <p className="my-4">3D</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-indigo-900">
+            <p className="my-4">WebVR</p>
+          </div>
         </div>
       </div>
     </div>
