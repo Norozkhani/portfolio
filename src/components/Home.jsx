@@ -9,13 +9,12 @@ export default function HomePage() {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Front-end Developer
+            I'm a Fullstack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            My name is Madeleine Norozkhani and im a front-end developer
+            My name is Madeleine Norozkhani and im a fullstack developer
             student! I love being creative and structured with my work. I also
-            have the experience of doing both fullstack, UX projects and working
-            agile.
+            have the experience of doing UX projects and working agile.
           </p>
           <div>
             <Link

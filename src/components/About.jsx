@@ -27,11 +27,10 @@ export default function About() {
             <div>
               <p>
                 {" "}
-                A Front-end developer student with experience in building
+                A Fullstack developer student with experience in building
                 Responsive and Scalable Web apps. I am knowledged in UI/UX
-                principles and practices. In addition to front-end development,
-                i also have experience working with Node.js, postgeSQL,
-                sequilize and express.
+                principles and practices. I am currantly looking for an
+                fullstack internship.
               </p>
             </div>
           </div>

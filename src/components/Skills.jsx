@@ -28,6 +28,12 @@ export default function Skills() {
             <p className="my-4">Next JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-indigo-900">
+            <p className="my-4">TAILWIND</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-indigo-900">
+            <p className="my-4">SCSS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-indigo-900">
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-indigo-900">
